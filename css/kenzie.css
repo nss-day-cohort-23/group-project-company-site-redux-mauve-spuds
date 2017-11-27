@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+#content {
+    max-width: 75rem;
+    margin: auto;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+#products .card {
+    flex: 1 1 30%;
+    padding: 1rem;
+}
+#products h2 {
+    text-align: center;
+}
+#products .price {
+    float: right;
+    opacity: .5;
+    display: block;
+    padding: 0 0 1ex 1ex;
+    font-size: 1.1rem;
+}
+#products img {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
