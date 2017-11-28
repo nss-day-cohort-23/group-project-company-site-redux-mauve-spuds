@@ -33,13 +33,28 @@ const spudFacts = [
       text: "842,157,200,000 pounds of potatoes were produced globally in 2014 - that's 110 lbs per person in the world!",
       sourceName: "Wikipedia",
       sourceURL: "https://en.wikipedia.org/wiki/Potato"
+    },
+    {
+      text: "Potato is spelled without an 'e', Mr. Quayle.",
+      sourceName: "Merriam-Webster Dictionary",
+      sourceURL: "https://www.merriam-webster.com/dictionary/potato"
+    },
+    {
+      text: "French fries were invented in Michigan",
+      sourceName: "Eli Jackson - Cohort 23",
+      sourceURL: "#top"
+    },
+    {
+      text: "Potatoes have many eyes",
+      sourceName: "Everybody knows that, dufus",
+      sourceURL: "#top"
     }
 ];
 
 const container = document.getElementById("content");
 let arr = [];
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 7; i++) {
   function rand() {
     let num = Math.round(Math.random() * (spudFacts.length - 1));
     while (arr.indexOf(num) !== -1) {
