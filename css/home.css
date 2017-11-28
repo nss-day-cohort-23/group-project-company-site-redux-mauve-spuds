@@ -36,3 +36,13 @@ body, html {
 #content {
     padding: 3rem;
 }
+.fact-text {
+  color: indigo;
+}
+
+.fact-source {
+  color: orchid;
+}
+.facts  h3 {
+    color: MediumPurple;
+}
