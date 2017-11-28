@@ -5,7 +5,7 @@
     align-items: center;
 }
 #about-us{
-    background-image:url("babak-fakhamzadeh-2994.jpg");
+    background-image:url("../img/babak-fakhamzadeh-2994.jpg");
     height: 40rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 }
 
 #circle1 {
-    background-image: url("quechua.jpg");
+    background-image: url("../img/quechua.jpg");
     height: 10rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
 
 
 #circle2 {
-    background-image:url("felipe-portella-198781.jpg");
+    background-image:url("../img/felipe-portella-198781.jpg");
     height: 10rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
     margin: 2rem;
 }
 #circle3 {
-    background-image:url("DM5QhjfW4AELhvp.jpg");
+    background-image:url("../img/DM5QhjfW4AELhvp.jpg");
     height: 10rem;
     background-position: center;
     background-repeat: no-repeat;
