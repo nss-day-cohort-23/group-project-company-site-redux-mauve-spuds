@@ -1,0 +1,44 @@
+header {
+    padding: 1rem 1rem;   
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#site-title {
+    margin: 0;
+    letter-spacing: .2em;
+    flex-grow: 1;
+}
+#site-title h3 {
+    margin: 0;
+}
+
+nav {
+    margin: 0 auto;
+    flex-grow: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 0 .5rem;
+    text-align: right;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+#social-media img {
+    height: 30px;
+    width: 30px;
+}
