@@ -1,9 +1,17 @@
 header {
     padding: 1rem 1rem;   
-    background-color: purple;
+    background-color: #5f355f;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 3rem;
 }
 
 #site-title {
@@ -38,7 +46,18 @@ nav {
     color: white;
 }
 
+#social-media {
+    padding: .7rem;
+}
 #social-media img {
     height: 30px;
     width: 30px;
+}
+footer {
+    background-color: #5f355f;
+    color: #fff;
+    margin: 0;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
 }
