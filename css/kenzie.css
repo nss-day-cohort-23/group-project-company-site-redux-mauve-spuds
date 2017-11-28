@@ -12,11 +12,18 @@ body {
     flex-wrap: wrap;
 }
 #products .card {
-    flex: 1 1 30%;
+    background: lavenderblush;
+    border: 3px solid indigo;
+    flex: 1 1 25%;
     padding: 1rem;
+    margin: 1rem;
 }
 #products h2 {
+    border-bottom: .33rem solid purple;
+    border-top: .33rem solid purple;
+    margin: 0 0 1.5rem 0;
     text-align: center;
+    padding: .5rem 0;
 }
 #products .price {
     float: right;
@@ -26,7 +33,8 @@ body {
     font-size: 1.1rem;
 }
 #products img {
-    max-width: 80%;
+    border: 2px solid darkslateblue;
+    max-height: 200px;
     margin: auto;
     display: block;
 }
