@@ -17,9 +17,9 @@
 
 }
 
-#circle {
-    background-color: whitesmoke;
-}
+
+
+
 #about-us h1, #about-us p {
     margin: 5rem;
     text-shadow: 2px 2px 6px #000;
@@ -30,6 +30,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #circle1 {
@@ -44,6 +45,8 @@
     margin: 2rem;
 
 }
+
+
 #circle2 {
     background-image:url("felipe-portella-198781.jpg");
     height: 10rem;
